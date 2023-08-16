@@ -1,0 +1,272 @@
+/* header */
+
+*{
+padding: 0;
+margin: 0;
+list-style: none;
+text-decoration: none !important;
+}
+
+.header_info{
+display: flex;
+justify-content: space-around;
+width: 100%;
+height: 50px;
+flex-shrink: 0;
+background: var(--primary-500, #50945D);
+}
+
+.con_{
+width: 400px;
+}
+.email_number{
+display: flex;
+justify-self: center;
+align-items: center;
+gap: 15px;
+}
+
+.info_number{
+padding: 20px;
+border-left: 1px solid rgb(255, 255, 255,0.4);
+}
+
+.info_email{
+padding: 20px;
+border-left: 1px solid rgb(255, 255, 255,0.4);
+}
+
+
+.social_info{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.social_icon{
+padding: 15px;
+}
+#_instagram{
+border-left: 1px solid rgb(255, 255, 255,0.4);
+border-right: 1px solid rgb(255, 255, 255,0.4);
+}
+.header_main{
+display: flex;
+justify-content: space-around;
+width: 100%;
+height: 100px;
+margin-top: 15px;
+background: var(--white-500, #FFF);
+}
+
+.header_logo{
+display: flex;
+width: 166px;
+height: 67px;
+padding: 12.684px 0px 12.685px 0px;
+justify-content: center;
+align-items: center;
+gap: 6.875px;
+flex-shrink: 0;
+}
+.header_navbar{
+display: inline-flex;
+align-items: flex-start;
+gap: 50px;
+height: 50%;
+margin-top: 20px;
+margin-bottom: 30px;
+
+
+}
+
+.header_navbar a{
+
+text-align: center;
+/* Body-1 Regular */
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+color: var(--dark-500, #0E140F);
+}
+/* header buttons */
+
+.header_buttons{
+display: flex;
+justify-content: center;
+gap: 15px;
+}
+
+.appointment_btn{
+display: flex;
+width: 180px;
+height: 50px;
+padding: 20px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 10px;
+background: var(--primary-500, #50945D);
+color: #FFFFFF;
+}
+.login_btn{
+display: flex;
+width: 98px;
+height: 50px;
+padding: 20px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 10px;
+border: 1px solid var(--primary-500, #50945D);
+}
+
+
+.text_a{
+text-align: center;
+/* Body-1 Regular */
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+color: var(--white-500, #FFFFFF);
+}
+
+
+/* Swapper */
+
+.swapper{
+display: flex;
+justify-content: space-evenly;
+width: 100%;
+height: 700px;
+flex-shrink: 0;
+background: var(--white-500, #FFF);
+margin-top: 40px;
+}
+
+.swapper_content{
+display: flex;
+width: 700px;
+flex-direction: column;
+flex-shrink: 0;
+
+}
+
+
+.p_certificated{
+position: absolute;
+width: 270px;
+height: 46px;
+border-radius: 10px;
+opacity: 0.1;
+background: var(--primary-500, #50945D);
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.p_certificated_content{
+position: relative;
+color: var(--primary-500, #50945D);
+
+/* Header-7 Regular */
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 26px; /* 144.444% */
+display: flex;
+top: 10px;
+left: 30px;
+z-index: 1;
+}
+.p_content h1{
+color: var(--dark-500, #0E140F);
+
+font-size: 60px;
+padding: 10px;
+font-style: normal;
+font-weight: 700;
+line-height: 80px; /* 133.333% */
+}
+
+.media_content{
+width: 800px;
+height: 300px;
+display: flex;
+flex-wrap: wrap;
+}
+.min_icon{
+display: flex;
+width: 56px;
+height: 56px;
+padding: 20px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 10px;
+background: var(--primary-primary-10, rgba(80, 148, 93, 0.10));
+}
+.media_min{
+display: inline-flex;
+align-items: center;
+gap: 15px;
+padding: 20px;
+}
+.media_text{
+display: flex;
+flex-direction: column;
+}
+.media_text h4{
+color: var(--dark-500, #0E140F);
+
+/* Header-6 Bold */
+
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px; /* 150% */
+}
+
+.but-content{
+
+display: flex;
+width: 173px;
+height: 56px;
+padding: 20px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+color: #FFFFFF;
+border: 0px;
+border-radius: 10px;
+background: var(--primary-500, #50945D);
+
+}
+
+
+.ellipse{
+position: relative;
+width: 600px;
+height: 600px;
+fill: var(--primary-500, #50945D);
+}
+.img_slider{
+position: absolute;
+width: 607.682px;
+height: 666px;
+flex-shrink: 0;
+background: url('../img/portrait.png');
+top: -65px;
+left: -65px;
+}
+
+.img_slider img{
+    position: absolute;
+    top:70px;
+    left: 550px;
+
+}
